@@ -1,0 +1,52 @@
+/* Add these base styles at the top */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Update nav styles */
+nav {
+    display: flex;
+    padding: 1rem;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Update content styles */
+#content {
+    flex: 1;  /* This makes it take up remaining viewport height */
+    width: 100%;
+    display: flex;
+    flex-direction: row;  /* Changed to column for header + content layout */
+}
+
+header {
+    width: 100%;
+    padding: 2rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+/* Keep your existing styles */
+img {
+    max-height: 300px;  /* Set a reasonable maximum height */
+    width: auto;
+    padding: 1em;
+    object-fit: contain;  /* Maintains aspect ratio */
+}
+
+#content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
