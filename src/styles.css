@@ -75,3 +75,21 @@ button:active {
     transform: translateY(1px);
 }
 
+.menu-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.menu-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.menu-item {
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+}
+

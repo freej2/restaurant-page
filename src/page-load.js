@@ -19,7 +19,6 @@ function loadHomePage() {
         const div3 = document.createElement('div');
         div3.textContent = "Home of the famous Jacob's Pancakes";
         div1.appendChild(div3);
-    
 }
 
 export default loadHomePage;
